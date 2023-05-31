@@ -1,0 +1,39 @@
+table, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+}
+/*
+p{
+        font-size: 20px;
+    margin-bottom: 3px;
+    font-weight: bold;>
+}
+
+table{
+/* width:100%
+width: 300px;
+height: 300px;
+}*/
+
+#Horario{
+    width: 300px;
+    height: 300px;
+    border-color: rgb(92, 137, 132);
+    border-style: double;
+    text-align: center;
+    background-color: aqua;
+}
+
+/*a{
+    text-decoration: none;
+}
+*/
+
+.form1{
+    background-color: aqua;
+}
+#Game.Land{
+color: brown;
+border-color: chocolate;
+}
+    

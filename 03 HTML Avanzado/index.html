@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+    <!--     ========   Tablas en HTML     ====
+Las tablas son es un conjunto de filas y columnas que continene información necesaria. Nos sirven para organizar y tener una mejor visibilidad de los elementos.
+        -Celda es la intersección entre una fila y columna que contiene informacipon necesaria.
+        En HTML definimos las celdas utilizando la etiqueta <td></td> table data
+
+        Filas Se definen con la etiqueta <tr></tr> table row
+        Encabezados Título que se refiere a la información que va  atener la tabla, se definen con la etiqueta <th></th>        (centrado y negritas)
+Para iniciar una tabla en HTML, se define la etiqueta <table></table> y se divide en dos partes:
+
+    Cabeza de tabla <thead></thead>
+        Cuerpo de la tabla <tbody></tbody>
+ 
+         Para agregrar un título a la tabla, utilizaremos la etiqueta <caption>
+-->
+      
+      <table>
+        <caption>Tabla de personas</caption>
+        <thead>
+
+           <tr> <!--Fila 1 -->
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Fila 2 -->
+                <td>Hiram Navarro</td>
+                <td>23</td>
+                <td>México</td>
+            </tr>    
+            <tr><!--Fila 3 --> 
+                <td>Paulina Ensastiga</td>
+                <td>19</td>
+                <td>Portugal</td>
+            </tr>
+            <tr><!--Fila 4 -->
+                <td>Daniel Corona</td>
+                <td>22</td>
+                <td>Rusia</td>
+            </tr>
+            </tbody>
+
+            <!--Tablita 2
+        cerar una tabla donde muestres el nombre, el apellido del entrenador pokemon y su pokemon base
+        Tpitulo de la tabla-->
+        <br>
+        <br>
+
+      </table>
+      <caption>Tabla de pokemon</caption>
+      <thead>
+    <tr> <!--Maestro 1-->
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Pokemon</th>
+   </tr>
+    </thead>
+    <tbody>
+        <tr> <!--Maestro 1 -->
+        <td>Osvaldo</td>
+        <td>Morales</td>
+        <td><a href="https://www.pokemon.com/el/pokedex/totodile" target="_blank">Tottodile</a></td>
+    </tr>    
+    <tr><!--Maestro 2 --> 
+        <td>Nancy</td>
+        <td>Pérez</td>
+        <td>Moltres<img id="moltres" src="/Images/p146f333.png" alt="moltres"> </td>
+    </tr>
+    <tr><!--Maestro 3 -->
+        <td>Hiram</td>
+        <td>Navarro</td>
+        <td>Mew</td>
+    </tr>
+    <tr><!--Maestro 4 -->
+        <td>Kevin</td>
+        <td>Gonzáles</td>
+        <td>Mewtwo</td>
+    </tr>
+    </tbody>
+</table>
+
+<!--Instrucciones
+    Diseña un horario de clases de lunes a viernes con 3 horarios (8:00-9:00; 9:00- 10:00; 10:00- 11:00) Con las materias que gustes. Agrega estilos para que tu horario quede bonito
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<table id="Horario">
+    <caption>Horario de Clases</caption>
+    <thead>
+
+       <tr> Fila 1 
+            <th>Materia </th>
+            <th>Día</th>
+            <th>Hora</th>
+       </tr>
+    </thead>
+    <tbody>
+    -->
+        <tr> <!--Fila 2 -->
+            <td>Matemáticas</td>
+            <td>Lunes</td>
+            <td>8:00-9:00</td>
+        </tr>   
+        <tr> <!--Fila 3 -->
+            <td>Matemáticas</td>
+            <td>Martes</td>
+            <td>8:00-9:00</td>
+        </tr> 
+        <tr><!--Fila 4 --> 
+            <td>Inglés</td>
+            <td>Miercoles</td>
+            <td>9:00- 10:00</td>
+        </tr>
+        <tr> <!--Fila 5 -->
+            <td>Química</td>
+            <td>Jueves</td>
+            <td>8:00-9:00</td>
+        </tr>
+        <tr><!--Fila 6 -->
+            <td>Historia</td>
+            <td>Viernes</td>
+            <td>10:00- 11:00</td>
+        </tr>
+        </tbody>
+        <!--
+        ============================
+            Vínculos HTML
+        Crear marcadores en HTML,
+        Los ,arcadores son putiles cuando tienes una página web muy larga. Para crear un marcador siga los siguientes oasos.
+        - Indicar un atributo para el marcador
+        - Crear el marcador  (id) y agregar un enlace
+         una sección de nuestro HTML, que los usuarios pueden saltar 
+
+ -->
+ <br>
+<br>
+ <hr>
+ <br>
+<br>
+ <a href="#parrafito 3">Parrafito 3</a>
+ <br>
+ <br>
+ <br>
+ <a href="/html/login.html">Inicia sesión</a>
+ <br>
+ <br>
+ <br>
+ <a href="/html/login.html#P4">Mira el párrafo 4 del Login</a>
+ <br>
+ <br>
+
+<p id="parrafito 1">P1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid numquam quisquam hic, fuga, aut doloribus beatae aspernatur corrupti aperiam illo blanditiis sint consequatur? Rem exercitationem, laudantium culpa libero in est.</p>
+<br>
+<br>
+<p id="parrafito 2">P2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis voluptate delectus ab velit, dolore cumque illo soluta facilis ducimus optio consectetur numquam excepturi, dolor sapiente laboriosam, quos eligendi inventore!</p>
+<br>
+<br>
+<p id="parrafito 3"> P3. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste eius perspiciatis facilis reiciendis quasi! Fuga dicta consequatur provident a illo sint nesciunt perspiciatis, sit fugiat quos cupiditate sunt commodi autem.</p>
+<hr>
+<br>
+<br>
+<!--============================================
+    Formularios de HTML
+Elemento que se encarga de recopilar información del usuario para enviarlo a un servidor para su procesamiento.
+
+--- Elementos de un formulario
+<form></form> se itiliza para crear un fotmulario HTML para la entrada de un usuario.
+ Diferentes tipos de entrada, campos de texto, casillas de verificación, botones de opción, botones de envío, etc.
+
+-->
+
+<form>
+    <label  for="user">Nombre de usuario</label>
+        <input type="text" id="user" name="user">
+</form>
+<br>
+<br>
+<br>
+<br>
+<!--Elemento label
+Define una etiqueta para formularios y es útil para los usuarios de lectores de pantalla. Cuando el usuario hace click en el texto dentro del elemento <label> alterna el botón de opción/casilla de verificación.
+-for: debe ser igual al atributo id del elemtno <input>
+para unirlos
+-----Elemento <input>
+Es el elemento más utilizado y s epuede mostar según el atributo "type"
+
+Tipos de input "type":
+
+-text permite introducir texto
+-password Permite introducir una contraseña y agregar asteriscos o puntos para ocultar la información
+-->
+
+<form>
+    <label for="password">Contraseña</label>
+    <input type="password" id="password" name="password">
+<br>
+<br>
+<br>
+<!--
+    number. Tipo númerico para elegir números. Se pueden definir nímeros mínimos o númmeros máximos ( max="30" "número")
+-->
+<label for="edad">Ingresa tu edad</label>
+    <input type="number" id="edad" name="edad" min="18" max="30" placeholder="Mínimo 18 años y Máximo 30 años">
+<br>
+<br>
+<br>
+<!--email. Solicita el uso de la arroba @ para escribir-->
+    <label for="correo_elect">Escribe tu correo electrónico</label>
+    <input type="email" id="correo_elect" name="correo_elect">
+<br>
+<br>
+<br>
+<!--Si queremos un cuadro de texto para realizar comentarios se utiliza la etiqueta textarea-->
+<label for="comentarios">Escribe un comentario</label>
+<textarea name="comentarios" id="comentarios" placeholder="Máximo 150 palabras"></textarea>
+<br>
+<br>
+<br>
+<!--    date. Despliega un calendario para seleccionar día, mes y año en formato (dd-mm-aaaa)-->
+<label for="nacimiento">Selecciona tu fecha de nacimiento</label>
+<input type="date" id="nacimiento" name="nacimiento">
+<br>
+<br>
+<br>
+<!--    radio. Define un boton de opción. Permite al usuario seleccionar solamente UNA opción de un número de opciones-->
+<p> Elige tu lenguaje de programación fav</p>
+<input type="radio" id="java" name="lenguaje_fav" value="java">
+<label for="java">JAVA</label><br>
+<input type="radio" id="javascript" name="lenguaje_fav" value="javascript">
+<label for="javascript">JAVASCRIPT</label><br>
+<input type="radio" id="python" name="lenguaje_fav" value="python">
+<label for="python">PYTHON</label><br>
+<br>
+<br>
+<br>
+<!--   checkbox. Define una casilla de verificación
+  donde el usuario puede seleccionar CERO o más opciones de un número limitado de opciones  
+-->
+<p>Selecciona los idiomas que hablas</p>
+<input type="checkbox" id="idioma1" name="idioma1" value="Inglés">
+<label for="idioma1">Inglés </label><br>
+<input type="checkbox" id="idioma2" name="idioma2">
+<label>Español</label><br> 
+<input type="checkbox" id="idioma3" name="idioma3" value="french">
+<label for="idioma3">Francés</label>
+<br>
+<br>
+<br> 
+<!--    file.   Es un campo de seleccion de archivos y un botón "EXAMINAR" que permite cargar archivos-->
+<label for="miArchivo">Adjunta tu archivo en formato PDF </label>
+<input type="file" id="miArchivo" name="miArchivo">
+<br>
+<br>
+<br>
+<!--    Experimentando con documentación de w3schools
+    range-->
+<label for="vol">Volumen 0 y 50</label>
+<input type="range" id="vol" name="vol" min="0" max="50">
+<br>
+<br>
+<br>
+</form>
+<!--   =========================================            Botones 
+Permiten controlar el envío de la información  del usuario que se envpia desde la computadora a los servidores
+    type "submit" envía al servidor lo que se escribe y el type "reset" permite limpiar la información contenida en el formulario-->
+
+    <!--Diseñar un formulario de registro para una página de videojuegos ¿Qué necesitamos?
+        todos los campos deben ser obligatorios
+    -Nombre: "tex"
+    -Apellido: "text"
+    -nombre de usuario: "text"
+    -correo electrónico: "email"
+    -edad (mínimo 18 años): "number"
+    -contraseña: "password"
+    -boton: que diga "registrarse" <button></button>
+    -boton: que diga "limpiar formulario"
+-->
+<hr>
+<hr>
+<!--Cuando el atributo action está en blanco, la solicitus de envío del formulario se enviará a la misma página. Es decir, cuando se envíe el formulario, los datos se enviarán al mismo url.
+Para hacer que los datos del formulario se envien a una URL específica, debemos establecer dicha URL dentro de action.-->
+    <form id="Game.Land" action="/action_page.php" method="post">
+        <h2>Inicia tu registro</h2>
+        <br>
+        <br>
+        <label  for="user">Nombre</label>
+        <input type="text" id="user" name="user" required>
+        <br>
+        <br>
+        <label  for="user">Apellido</label>
+        <input type="text" id="user" name="user">
+        <br>
+        <br>
+        <label  for="user">Nombre de usuario</label>
+        <input type="text" id="user" name="user" required>
+        <br>
+        <br>
+        <label for="correo_elect">Escribe tu correo electrónico</label>
+        <input type="email" id="correo_elect" name="correo_elect" required>
+        <br>
+        <br>
+        <label for="edad">Ingresa tu edad</label>
+        <input type="number" id="edad" name="edad" min="18" max="30" placeholder="Mínimo 18 años y Máximo 30 años" required>
+        <br>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required>    
+        <br>
+        <br>
+        <button type="submit" class="B1" id="button1">Registrarse</button>
+        <br>
+        <br>
+        <button>Limpiar registro</button>
+        <br>
+        <br>
+   </form> 
+  <!--Botón enviar
+    type= "submit" define un botón para enviar los datos del formulario a un controlador de formulario. El controlador de formulario suele ser un archivo con un script para procesar los datos de entrada.
+El controlador de formulario se especifica en el atributo de acción del formulario--> 
+    <br>
+    <br>
+    <br>
+    <br>
+        <h4>Iniciar sesión</h4>
+        <form action="/action_information.php" method="get">
+        <br>
+        <br>
+        <label  for="user">Nombre de usuario</label>
+        <input type="text" id="user" name="user" required>
+        <br>
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password" required> 
+        <br>
+        <br>
+        <button>Registrarse</button>
+        </form>
+</body>
+</html>
